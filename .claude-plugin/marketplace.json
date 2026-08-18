@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-skills",
+  "description": "Ioannis Antoniadis' personal collection of Claude Code skills and plugins.",
+  "owner": {
+    "name": "Ioannis Antoniadis"
+  },
+  "plugins": [
+    {
+      "name": "interview-prep-repo",
+      "description": "Scaffold a tailored, research-backed interview-prep repo for an upcoming job interview — topic pages, a cram brief, rehearsable prompts, glossary, notes distilled from real papers/blog posts, and (for hands-on rounds) a small runnable code scaffold with passing tests.",
+      "author": {
+        "name": "Ioannis Antoniadis"
+      },
+      "source": "./plugins/interview-prep-repo",
+      "category": "learning",
+      "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/interview-prep-repo"
+    }
+  ]
+}

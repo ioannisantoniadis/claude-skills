@@ -1,0 +1,10 @@
+{
+  "name": "interview-prep-repo",
+  "version": "0.1.0",
+  "description": "Scaffold a tailored, research-backed interview-prep repo for an upcoming job interview.",
+  "author": {
+    "name": "Ioannis Antoniadis"
+  },
+  "license": "MIT",
+  "keywords": ["interview-prep", "career", "job-search", "study", "learning"]
+}
