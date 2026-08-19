@@ -17,6 +17,8 @@ directly:
 | Skill | What it does |
 |---|---|
 | [`interview-prep-repo`](plugins/interview-prep-repo/) | Scaffolds a tailored, research-backed interview-prep repo (topics, cram brief, rehearsable prompts, real-source notes, optional runnable code) for an upcoming job interview. |
+| [`algorithm-visualizer`](plugins/algorithm-visualizer/) | Adds a new algorithm to an existing Streamlit + Plotly algorithm-visualizer portfolio repo, matching its from-scratch NumPy + step-by-step visualization convention. |
+| [`ai-topic-note`](plugins/ai-topic-note/) | Adds a new topic (or extends an existing one) to an existing personal AI/ML knowledge-base repo, deciding the right granularity and updating only the index files that apply. |
 
 ## Structure
 

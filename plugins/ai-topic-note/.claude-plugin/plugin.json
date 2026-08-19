@@ -1,0 +1,10 @@
+{
+  "name": "ai-topic-note",
+  "version": "0.1.0",
+  "description": "Add a new topic, or extend an existing one, to an existing personal AI/ML knowledge-base repo in its established terse-reference-prose style.",
+  "author": {
+    "name": "Ioannis Antoniadis"
+  },
+  "license": "MIT",
+  "keywords": ["knowledge-base", "learning", "ai", "ml", "notes"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "algorithm-visualizer",
+  "version": "0.1.0",
+  "description": "Add a new algorithm to an existing Streamlit + Plotly algorithm-visualizer portfolio repo, following its established from-scratch NumPy + step-by-step visualization convention.",
+  "author": {
+    "name": "Ioannis Antoniadis"
+  },
+  "license": "MIT",
+  "keywords": ["streamlit", "plotly", "visualization", "algorithms", "numpy", "portfolio"]
+}

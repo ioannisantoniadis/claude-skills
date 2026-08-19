@@ -15,6 +15,26 @@
       "source": "./plugins/interview-prep-repo",
       "category": "learning",
       "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/interview-prep-repo"
+    },
+    {
+      "name": "algorithm-visualizer",
+      "description": "Add a new algorithm to an existing Streamlit + Plotly algorithm-visualizer portfolio repo — from-scratch NumPy implementation, step-by-step Plotly visualization, matching the repo's established theme, session-state, and playback conventions.",
+      "author": {
+        "name": "Ioannis Antoniadis"
+      },
+      "source": "./plugins/algorithm-visualizer",
+      "category": "development",
+      "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/algorithm-visualizer"
+    },
+    {
+      "name": "ai-topic-note",
+      "description": "Add a new topic, or extend an existing one, to an existing personal AI/ML knowledge-base repo in its established terse-reference-prose style, deciding granularity (new file vs. subsection) and updating only the index files that actually apply.",
+      "author": {
+        "name": "Ioannis Antoniadis"
+      },
+      "source": "./plugins/ai-topic-note",
+      "category": "learning",
+      "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/ai-topic-note"
     }
   ]
 }
