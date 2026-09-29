@@ -40,7 +40,8 @@ Put it where the user says. Otherwise put it in the current directory, and say w
    Otherwise pick the most plausible reading and state it in the review.
 3. **Research.** Read `references/research-and-style.md` first. In short: current state, prior art,
    and especially evidence *against* the idea; primary sources; a date on every claim about "today";
-   no invented citations (mark anything you couldn't verify `[unverified]`). Keep it proportionate:
+   no invented citations (mark anything you couldn't verify `[unverified]`); every source you open is
+   listed, cited ones in References and the rest under "Also consulted". Keep it proportionate:
    a dozen or two well-chosen sources beats sixty skimmed ones, and every fetched page stays in
    context.
 4. **Draft.** Fill in `assets/template.md` as `README.md`. Fill every section; if one doesn't apply,

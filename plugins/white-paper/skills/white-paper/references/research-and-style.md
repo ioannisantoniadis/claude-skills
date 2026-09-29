@@ -15,6 +15,10 @@
 - **Name the prior art.** Knowing who got there first is how you find what's genuinely new; say what
   this idea adds.
 - **Numbered references** at the end, with links, cited in the text as [1], [2].
+- **Keep a research trail.** As you go, note every source you open. Cited sources go in References;
+  the rest go in an `### Also consulted` list under it, with links, including sources that argued
+  against the idea and were answered or set aside. The reader should be able to see everything that
+  informed the paper, not only what made the final cut, so that any claim can be traced later.
 
 ## Style
 
