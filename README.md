@@ -19,6 +19,8 @@ directly:
 | [`interview-prep-repo`](plugins/interview-prep-repo/) | Scaffolds a tailored, research-backed interview-prep repo (topics, cram brief, rehearsable prompts, real-source notes, optional runnable code) for an upcoming job interview. |
 | [`algorithm-visualizer`](plugins/algorithm-visualizer/) | Adds a new algorithm to an existing Streamlit + Plotly algorithm-visualizer portfolio repo, matching its from-scratch NumPy + step-by-step visualization convention. |
 | [`ai-topic-note`](plugins/ai-topic-note/) | Adds a new topic (or extends an existing one) to an existing personal AI/ML knowledge-base repo, deciding the right granularity and updating only the index files that apply. |
+| [`white-paper`](plugins/white-paper/) | Turns a rough idea into a researched, well-argued white paper (verbatim seed, evidence against, structured template, review and revision). |
+| [`skeptical-review`](plugins/skeptical-review/) | Referee-style critique of papers, proposals and plans: verified citations, anchored rubrics, hard fails, ranked issues, decisions for the author. |
 
 ## Structure
 

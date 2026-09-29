@@ -35,6 +35,26 @@
       "source": "./plugins/ai-topic-note",
       "category": "learning",
       "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/ai-topic-note"
+    },
+    {
+      "name": "white-paper",
+      "description": "Turn a rough idea into a researched, well-argued white paper: the author's input kept verbatim, research including the evidence against, a structured template (thesis, assumptions, scenarios, path, counterarguments), then review and revision.",
+      "author": {
+        "name": "Ioannis Antoniadis"
+      },
+      "source": "./plugins/white-paper",
+      "category": "productivity",
+      "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/white-paper"
+    },
+    {
+      "name": "skeptical-review",
+      "description": "Critique papers, proposals and plans like a hard but fair referee: verified citations, counter-evidence and prior art, anchored 1–5 rubrics, hard fails, ranked issues with fixes, and decisions for the author.",
+      "author": {
+        "name": "Ioannis Antoniadis"
+      },
+      "source": "./plugins/skeptical-review",
+      "category": "productivity",
+      "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/skeptical-review"
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "name": "white-paper",
+  "version": "0.1.0",
+  "description": "Turn a rough idea into a researched, well-argued white paper: verbatim seed, research including the evidence against, a structured template, then review and revision.",
+  "author": {
+    "name": "Ioannis Antoniadis"
+  },
+  "license": "MIT",
+  "keywords": ["ideas", "writing", "research", "white-paper", "strategy"]
+}

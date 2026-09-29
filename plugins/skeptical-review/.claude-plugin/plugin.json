@@ -1,0 +1,10 @@
+{
+  "name": "skeptical-review",
+  "version": "0.1.0",
+  "description": "Referee-style critique of papers, proposals and plans: verified citations, counter-evidence, anchored 1-5 rubrics, hard fails, ranked issues with fixes, and decisions for the author.",
+  "author": {
+    "name": "Ioannis Antoniadis"
+  },
+  "license": "MIT",
+  "keywords": ["review", "critique", "writing", "research", "decision-making"]
+}
