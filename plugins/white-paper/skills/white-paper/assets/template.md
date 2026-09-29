@@ -106,6 +106,11 @@ description: >-
 
 <!-- Numbered, with links. Only sources that were actually consulted. Cite them in the text as [1], [2]. -->
 
+### Also consulted
+
+<!-- Sources read but not cited, with links, including evidence against the idea that was answered or
+     set aside, so the reader can see everything that informed the paper. -->
+
 ## Revision history
 
 | Version | Date | Change |

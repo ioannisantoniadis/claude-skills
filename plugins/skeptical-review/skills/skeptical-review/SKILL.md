@@ -21,7 +21,8 @@ clearly what's strong, so it survives the revision.
    clearly apply from another.
 4. **Verify the citations** the argument depends on. Open them, and check that each exists and says
    what the document claims. Prioritise load-bearing ones: five checked properly beat twenty
-   skimmed. A fabricated or badly misrepresented source is a hard fail. List the ones you checked.
+   skimmed. A fabricated or badly misrepresented source is a hard fail. Record every check with a
+   verdict (see the output format), so the author can see exactly what was verified.
 5. **Test the core claim.** Search for the strongest counter-evidence and the closest prior art. If
    the idea already exists or is well known, originality is low, whatever the document says. Check
    the internal consistency too: sections that contradict each other are often the most useful
@@ -67,7 +68,12 @@ deserves the reader's attention as it stands.>
 <Questions only the author can answer (scope, thesis, trade-offs), each with the options and your
 recommendation.>
 
-*Citations checked:* <list>
+### Citations checked
+| Reference | Verdict | Note |
+|---|---|---|
+| [n] as cited, linked to the URL opened | ok · misrepresented · not-found · unreachable | what the source actually says, or why it couldn't be checked |
+
+*Unreachable* means unverified, not fabricated; say so rather than guessing.
 
 **Recommendation:** accept | revise | reject, with one sentence explaining why.
 ```
