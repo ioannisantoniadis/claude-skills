@@ -55,6 +55,16 @@
       "source": "./plugins/skeptical-review",
       "category": "productivity",
       "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/skeptical-review"
+    },
+    {
+      "name": "learning-repo",
+      "description": "Build and audit learning repos (technical books, notes, algorithm demos) against one shared rubric: primary-source research, figures from real computation, claims that match measurements, tests that check the claims, internal consistency and clean builds.",
+      "author": {
+        "name": "Ioannis Antoniadis"
+      },
+      "source": "./plugins/learning-repo",
+      "category": "learning",
+      "homepage": "https://github.com/ioannisantoniadis/claude-skills/tree/main/plugins/learning-repo"
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "name": "learning-repo",
+  "version": "0.1.0",
+  "description": "Build and audit learning repos (technical books, notes, demo apps) against one shared rubric: verified sources, figures from real computation, claims that match measurements, tests that check the claims, internal consistency and clean builds.",
+  "author": {
+    "name": "Ioannis Antoniadis"
+  },
+  "license": "MIT",
+  "keywords": ["learning", "quarto", "technical-writing", "audit", "research", "reproducibility"]
+}
