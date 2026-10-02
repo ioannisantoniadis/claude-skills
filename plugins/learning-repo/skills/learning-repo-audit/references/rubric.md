@@ -76,6 +76,9 @@ merely exercising the code.
   only check shapes or that code runs.
 - *Sampled:* re-derive 2–3 key results by hand or numerically. Read 2–3 core implementations
   against their text.
+  For an optimizer or solver, compare the *objective value* it reaches with a reference
+  solver's, not just its predictions: agreeing predictions can hide a solution well short of
+  the optimum (an SVM can separate the data perfectly with a far-from-maximal margin).
 
 ### 5. Pedagogy
 
