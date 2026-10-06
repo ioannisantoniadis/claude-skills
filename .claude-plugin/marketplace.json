@@ -58,7 +58,7 @@
     },
     {
       "name": "learning-repo",
-      "description": "Build and audit learning repos (technical books, notes, algorithm demos) against one shared rubric: primary-source research, figures from real computation, claims that match measurements, tests that check the claims, internal consistency and clean builds.",
+      "description": "Build, audit and compare learning repos (technical books, notes, algorithm demos): one shared rubric for building and auditing (primary-source research, figures from real computation, claims that match measurements, tests that check the claims, internal consistency, clean builds), and a blinded comparison that counts confirmed defects per 10,000 words.",
       "author": {
         "name": "Ioannis Antoniadis"
       },

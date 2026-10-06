@@ -21,7 +21,7 @@ directly:
 | [`ai-topic-note`](plugins/ai-topic-note/) | Adds a new topic (or extends an existing one) to an existing personal AI/ML knowledge-base repo, deciding the right granularity and updating only the index files that apply. |
 | [`white-paper`](plugins/white-paper/) | Turns a rough idea into a researched, well-argued white paper (verbatim seed, evidence against, structured template, review and revision). |
 | [`skeptical-review`](plugins/skeptical-review/) | Referee-style critique of papers, proposals and plans: verified citations, anchored rubrics, hard fails, ranked issues, decisions for the author. |
-| [`learning-repo`](plugins/learning-repo/) | Two skills sharing one rubric: `learning-repo-build` builds or upgrades a learning repo (technical book, notes, demos) from primary sources and real computation; `learning-repo-audit` scores one against the rubric and writes a severity-ranked report. |
+| [`learning-repo`](plugins/learning-repo/) | Two skills sharing one rubric: `learning-repo-build` builds or upgrades a learning repo (technical book, notes, demos) from primary sources and real computation; `learning-repo-audit` scores one against the rubric and writes a severity-ranked report; `learning-repo-compare` compares several on confirmed defects per 10,000 words, with blinded copies and planted errors. |
 
 ## Structure
 

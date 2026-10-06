@@ -129,6 +129,10 @@ Steps 5–7 are the expensive ones. For a quick screen, run steps 1–4 only and
 
 ## Auditing several repos
 
+If the question is which repo is more reliable, measured on equal terms (blinded copies,
+planted errors, confirmed defects per 10,000 words), use the `learning-repo-compare` skill
+instead: rubric scores drift between auditors and reward a visible paper trail.
+
 Audit them one at a time with the same procedure and the same sample sizes, so the scores are
 comparable. Then write `learning-repo-audits/summary-<date>.md`:
 - a table with one row per repo: profile, the nine scores, hard fails and blocker count;

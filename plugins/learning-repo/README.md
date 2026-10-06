@@ -1,8 +1,9 @@
 # learning-repo
 
-Two [Claude Code](https://claude.com/claude-code) skills that share one rubric. One builds learning
-repositories (technical books, notes collections, algorithm demos, research write-ups); the other
-audits them. A learning repo promises its reader that *what it says is true, and what it shows was
+Three [Claude Code](https://claude.com/claude-code) skills. Two share one rubric: one builds
+learning repositories (technical books, notes collections, algorithm demos, research write-ups),
+the other audits them. The third compares several repos on equal terms by counting confirmed
+defects. A learning repo promises its reader that *what it says is true, and what it shows was
 actually computed*. The rubric spells out what keeping that promise takes.
 
 ## Skills
@@ -25,6 +26,16 @@ actually computed*. The rubric spells out what keeping that promise takes.
   - Generates tables from a single source of truth; keeps a notation appendix, a decision log,
     CI and a clean render.
   - Follows the evidence when it contradicts the spec, and says so.
+
+- **`learning-repo-compare`**: compares repos (or one repo over time) on output quality.
+  - Blinded copies: plans, decision logs, research logs and earlier audits removed.
+  - Four planted errors per repo, to measure the auditor's own miss rate.
+  - A seeded sample of checkable claims plus a full read, by one fresh low-cost auditor per
+    repo.
+  - Every reported defect confirmed against the original before it counts; the result is
+    confirmed defects per 10,000 words, plus a merge-readiness inventory (notation clashes,
+    shared devices).
+  - Ships the protocol, its scripts and a baseline from the first run on four books.
 
 ## The rubric
 
@@ -55,6 +66,15 @@ skills/
 │   └── scripts/
 │       ├── mechanical_checks.py    exhaustive checks (images, scripts, citations, paths, hygiene)
 │       └── compare_figures.py      triage regenerated figures against the committed ones
+├── learning-repo-compare/
+│   ├── SKILL.md                    workflow, ground rules, pitfalls
+│   ├── references/
+│   │   ├── protocol.md             blinding, planting, sampling, auditing, metrics
+│   │   └── baseline-2026-10.md     first run: four books, densities, sensitivity
+│   └── scripts/
+│       ├── blind_copy.py           blinded copy of a repo
+│       ├── inventory.py            claim inventory and seeded stratified sample
+│       └── metrics.py              defect rates, Wilson intervals, kappa
 └── learning-repo-build/
     ├── SKILL.md                    phases, standing rules
     └── references/
@@ -62,5 +82,6 @@ skills/
         └── rubric.md -> ../../learning-repo-audit/references/rubric.md
 ```
 
-The skills were distilled from building
-[rl-for-llms](https://github.com/ioannisantoniadis/rl-for-llms).
+The build and audit skills were distilled from building
+[rl-for-llms](https://github.com/ioannisantoniadis/rl-for-llms); the compare skill from assessing
+it against its siblings while building [data-lab](https://github.com/ioannisantoniadis/data-lab).
